@@ -25,7 +25,7 @@ for index, row in df.iterrows():
         'address': row['address'],
         'email': row['email'],
         'company': row['company']
-        }
+        } 
     
     context.update(my_context)
     doc.render(context)
